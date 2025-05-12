@@ -1,0 +1,35 @@
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #083d4b; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+  }
+
+  form div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #1092c1;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #04404b;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #0ea8c7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin:auto
+  }
+
+  #resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background: #1092c1;
+    border-radius: 8px;
+    color: #000000; /* cor escura para contraste */
+  }
