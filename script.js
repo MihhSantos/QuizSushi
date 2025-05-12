@@ -27,6 +27,8 @@ document.getElementById('quizForm').addEventListener('submit', function (event) 
   
     if (percentage >= 80) {
       resultado.innerHTML += `<p><strong>Parabéns! Você ganhou o prêmio 🍣🐼</strong></p>`;
+      resultado.innerHTML += `<p><strong>Borá comer no dia 17/05/2025</strong></p>`;
+      resultado.innerHTML += `<p><strong>Kozan 🍣🐼 ás 19:00hs</strong></p>`;
       animacao.style.display = 'block';
     } else {
       resultado.innerHTML += `<p><strong>Ops! Você precisa acertar pelo menos 80%. Tente novamente!</strong></p>`;
